@@ -3,29 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - Eric Gao</title>
+    <title>About - ERIC GAO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <nav class="navbar">
         <div class="nav-container">
-            <a href="index.html" class="nav-link">Eric Gao</a>
-            <a href="about.html" class="nav-link active">About</a>
-            <a href="clothes.html" class="nav-link">Clothes</a>
+            <a href="index.html" class="nav-logo">ERIC GAO</a>
+            <div class="nav-links">
+                <a href="about.html">about</a>
+                <a href="clothes.html">clothes</a>
+            </div>
         </div>
     </nav>
 
-    <main class="container">
-        <h1>About</h1>
+    <main class="about-container">
+        <div class="photo-grid">
+            <img src="assets/about/guitar.jpeg" alt="Eric Gao photo 1">
+            <img src="assets/about/headshot.jpg" alt="Eric Gao photo 2">
+            <img src="assets/about/quadcopter.PNG" alt="Eric Gao photo 3">
+        </div>
+
         <div class="about-content">
-            <p>Uni: University of Waterloo Systems Design Engineering. Coming into to uni, I wanted the most efficient path to big tech. 
-                Interned as a UX Research intern at a large discount brokerage in Canada. I felt bored and realized I should at least try to pursue my interests. 
-                Bought myself an ESP32, joined a solar car team, built a quadcopter and joined a Canadian Food robotics start-up. Most recently I interned at Zipline
-                owning the flight computer RF system validation suite. Currently working at Under Control Robotics on control, infra and VLAs for humanoid robots. </p>
-            
-            <p>High School: Volunteer Event Organizing, Graphic Design and Business Case Competitions. Won the Swift Student Challenge in 2021.</p>
-            
-            <p>Elemtary School: Started a Minecraft YouTube channel. Taught myself Premier, After Effects and Illustrator to make media. The first time I realized I can just do things</p>
+            <ul>
+                <li>Currently at <strong><a href="https://www.undercontrol.ai">UCR</a></strong> working on humanoid robot software for control, infra and VLAs.</li>
+                <li>Interned at <strong><a href="https://www.zipline.com">Zipline</a></strong>, owning the flight computer RF system validation software and hardware suite.</li>
+                <li>Interned at <strong><a href="https://www.questrade.com">Questrade</a></strong>, conducting UX Research studies with hundreds of users. At this point, I realized my goals were extrinsically motivated and did some soul searching. Decided to learn how to build robots.</li>
+                <li>Studying Systems Design Engineering at the <strong>University of Waterloo</strong>.</li>
+                <li>In high school I did a lot of event organizing, business case competitions and graphic design. Won the <strong>Apple</strong> Swift Student challenge and went to WWDC.</li>
+                <li>Started a <strong>Minecraft</strong> Youtube Channel in grade 4. Learning how to create media taught me I could just do things!</li>
+            </ul>
         </div>
     </main>
 </body>

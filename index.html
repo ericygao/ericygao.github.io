@@ -3,25 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eric Gao</title>
+    <title>ERIC GAO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <nav class="navbar">
         <div class="nav-container">
-            <a href="index.html" class="nav-link active">Eric Gao</a>
-            <a href="about.html" class="nav-link">About</a>
-            <a href="clothes.html" class="nav-link">Clothes</a>
+            <a href="index.html" class="nav-logo">ERIC GAO</a>
+            <div class="nav-links">
+                <a href="about.html">about</a>
+                <a href="clothes.html">clothes</a>
+            </div>
         </div>
     </nav>
 
-    <main class="container">
-        <h1>Blog Posts</h1>
-        <div class="blog-list" id="blogList">
-            <!-- Blog posts will be loaded here -->
-        </div>
-    </main>
+    <main class="content">
+        <article class="blog-preview">
+            <p class="date">FEB 2026</p>
+            <h1 class="title"><a href="blog-post-2.html">THE DREAM OF HUMANOIDS</a></h1>
+        </article>
 
-    <script src="script.js"></script>
+        <article class="blog-preview">
+            <p class="date">DEC 2025</p>
+            <h1 class="title"><a href="blog-post-1.html">IN PURSUIT OF SKILL</a></h1>
+        </article>
+    </main>
 </body>
 </html>
